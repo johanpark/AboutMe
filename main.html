@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
     <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet" />
     <title>Johan Park</title>
 </head>
 <body>
-    <div style="background-image: url('Image_src/Image_1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;
-    padding-top: 250px; padding-bottom: 250px;">
+
+<div id="slider">
+    <div class="slider_item">
         <div>
-            <h1 style="font-size: 75px;">Hi! I'm Johan Park</h1>
-            <h5 style="font-size: 30px;"> Son of Flowershop</h5>
+        <h1 style="font-size: 75px;">Hi! I'm Johan Park</h1> 
+        <h5 style="font-size: 30px;"> Son of Flowershop</h5>
         </div>
     </div>
+    <div class="slider_item"><h1 style="font-size: 75px;">Someday, I'll be a Full-Stack Dev</h1></div>
+    <div class="slider_item"><h1 style="font-size: 75px;">Let's be together</h1></div>
+</div>
 
-    <div style ="background-color: white; color: black; padding-top: 40px; padding-bottom: 40px;">
+
+    <div class="aboutme">
         <h1>About Me</h1>
-        <hr>
+        <hr class="hr-dark">
+        <br>
         <div class="grid">
             <div>
                 <i class="fas fa-male fa-3x"></i>
@@ -44,11 +51,11 @@
         </div>
     </div>
 
-<div style="padding-top: 40px; padding-bottom: 40px;">
+<div  class="skill">
     <div>
-        <h2>Johan Park</h2>
+        <h1>Johan Park</h1>
         <hr class="hr-light">
-        <h3>Who Are You?</h3>
+        <h2>Who Are You?</h2>
     </div>
     <div class="grid">
         <div>
@@ -56,14 +63,14 @@
             <h4>
                 <strong>Development</strong>
             </h4>
-            <p class="text-faded">Frontend Framework</p>
+            <p>Frontend Framework</p>
         </div>
         <div>
         <i class="fas fa-laptop-code fa-3x"></i>
             <h4>
                 <strong>Use Language</strong>
             </h4>
-            <p class="text-faded">C/C++ JS</p>
+            <p>C/C++ JS</p>
         </div>
 
         <div>
@@ -71,24 +78,29 @@
                 <h4>
                     <strong>Algorithm Training</strong>
                 </h4>
-                <p class="text-faded">Baekjoon OJ</p>
+                <p>Baekjoon OJ</p>
         </div>
         <div>
             <i class="fas fa-lightbulb fa-3x"></i>
                 <h4>
                     <strong>Problem Solver</strong>
                 </h4>
-                <p class="text-faded">Idea Bank</p>
+                <p>Idea Bank</p>
         </div>  
     </div>
 </div>
 
 <footer>
-    <div class="inner">
-        <p style="font-size: 30px;"><strong>John Park's <a href="https://github.com/johanpark" target="_blank">Github</a><strong></strong>
-          <i class="fab fa-github-square fa-2x"></i></p>
+    <div>
+        <ul>
+        <h3>Phone : 010-8892-6948</h3>
+        <h3>mail : pyhan23@gmail.com</h3>
+        <h3><strong>John Park's <a href="https://github.com/johanpark" target="_blank">Github</a><strong></strong>
+          <i class="fab fa-github-square fa-2x"></i></h3>
+        </ul>
     </div>
 </footer>
 
+<script src="Backimg.js"></script>
 </body>
 </html>
